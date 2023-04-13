@@ -46,8 +46,14 @@ const WorkHistory = () => {
         color={useColorModeValue('gray.300', 'gray.300')}
         fontWeight={'light'}
       >
-        <Icon fontSize={'2xl'} as={MdWorkOutline} />
-        <Text> Mi experiencia laboral</Text>
+        <Icon
+          fontSize={'2xl'}
+          as={MdWorkOutline}
+          textColor={useColorModeValue('gray.700', 'gray.200')}
+        />
+        <Text textColor={useColorModeValue('gray.700', 'gray.200')}>
+          Mi experiencia laboral
+        </Text>
       </Stack>
       <VStack
         border={'1px'}

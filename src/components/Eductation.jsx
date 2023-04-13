@@ -36,8 +36,14 @@ const Eductation = () => {
         color={useColorModeValue('gray.300', 'gray.300')}
         fontWeight={'light'}
       >
-        <Icon fontSize={'2xl'} as={TbSchool} />
-        <Text> Mis estudios</Text>
+        <Icon
+          fontSize={'2xl'}
+          as={TbSchool}
+          textColor={useColorModeValue('gray.700', 'gray.200')}
+        />
+        <Text textColor={useColorModeValue('gray.700', 'gray.200')}>
+          Mis estudios
+        </Text>
       </Stack>
       <VStack
         border={'1px'}

@@ -2,7 +2,6 @@ import { Avatar, Box, Flex, Text, useColorModeValue } from '@chakra-ui/react';
 import LineWithDot from './LineWithDot';
 
 const WorkStudyItem = ({ logoUrl, title, subtitle, yearRange, subcharges }) => {
-  console.log(subcharges);
   return (
     <Box display={'flex'} gap={6}>
       <Avatar name={title} src={logoUrl} />
