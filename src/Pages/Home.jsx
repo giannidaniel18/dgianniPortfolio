@@ -1,6 +1,7 @@
 import { Stack } from '@chakra-ui/react';
 import Eductation from '../components/Eductation';
 import Presentation from '../components/Presentation';
+import WorkHistory from '../components/WorkHistory';
 
 function Home() {
   return (
@@ -9,9 +10,9 @@ function Home() {
       <Stack
         direction={{ base: 'column', md: 'row' }}
         width={'full'}
-        justifyContent={'space-evenly'}
+        justifyContent={'space-between'}
       >
-        <Eductation />
+        <WorkHistory />
         <Eductation />
       </Stack>
     </>
