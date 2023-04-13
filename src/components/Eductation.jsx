@@ -6,21 +6,21 @@ import { TbSchool } from 'react-icons/tb';
 const EDUCTATION_LIST = [
   {
     id: 'CODER',
-    logoURL: 'src/assets/coderhouse-logo.png',
+    logoURL: '/assets/coderhouse-logo.png',
     title: 'Coderhouse',
     subtitle: 'Curso React Js',
     yearRange: 'may.2022 - jun.2022',
   },
   {
     id: 'UTN',
-    logoURL: 'src/assets/utn-logo.webp',
+    logoURL: '/assets/utn-logo.webp',
     title: 'UTN FRBA - Centro de e-Learning',
     subtitle: 'Profesional Webmaster - Full Stack',
     yearRange: 'ago.2021 - feb.2022',
   },
   {
     id: 'UAI',
-    logoURL: 'src/assets/uai-logo.jpeg',
+    logoURL: '/assets/uai-logo.jpeg',
     title: 'UAI - Universidad Abierta Interamericana',
     subtitle: 'Analista de sistemas informáticos',
     yearRange: '2010 - 2015',

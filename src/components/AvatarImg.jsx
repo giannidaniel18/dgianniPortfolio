@@ -8,12 +8,12 @@ const AvatarImg = () => {
       boxSize='70px'
       objectFit='cover'
       name='Daniel Gianni Avatar'
-      src='src\assets\avatarportfolio.png'
+      src='/assets/avatarportfolio.png'
       transition={'ease-in-out, 0.5s'}
       _hover={{
         width: '120px',
         height: '120px',
-        content: 'url("src/assets/dg1.png")',
+        content: 'url("/assets/dg1.png")',
       }}
     />
   );

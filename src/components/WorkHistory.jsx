@@ -6,7 +6,7 @@ import { MdWorkOutline } from 'react-icons/md';
 const WORKHISTORY_LIST = [
   {
     id: 'GS',
-    logoURL: 'src/assets/gs-logo.jpeg',
+    logoURL: '/assets/gs-logo.jpeg',
     title: 'Galicia Seguros',
     subtitle: 'Desarrollador Front-End',
     yearRange: 'may.2022 - Actualidad',
@@ -23,14 +23,14 @@ const WORKHISTORY_LIST = [
   },
   {
     id: 'YPF',
-    logoURL: 'src/assets/ypf-logo.jpeg',
+    logoURL: '/assets/ypf-logo.jpeg',
     title: 'YPF',
     subtitle: 'Analista Senior - Seguridad SAP',
     yearRange: 'jul.2016 - abr.2019',
   },
   {
     id: 'EY',
-    logoURL: 'src/assets/ey-logo.jpg',
+    logoURL: '/assets/ey-logo.jpg',
     title: 'Ernst & Young',
     subtitle: 'Consultor TI - Auditorías Internas & Externas - Segurdad SAP',
     yearRange: 'jul.2015 - ago.2019',
