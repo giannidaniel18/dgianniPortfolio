@@ -1,15 +1,16 @@
-import Home from './Pages/Home';
 import Layout from './layouts/Layout';
+import Router from './router/Router';
 
-//! Instalar react-router-dom
-//! Establecer el ruteo
-//! crear todas las paginas
-//! Crear la card de proyectos
+//! Refinar las ProjectsCards
+//! Empezar la seccion de contacto
+//! arreglar los projectos
+//! sumar el portfolio
+//! suamr el twitterClone
 
 function App() {
   return (
     <Layout>
-      <Home />
+      <Router />
     </Layout>
   );
 }

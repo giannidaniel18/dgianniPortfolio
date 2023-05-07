@@ -3,7 +3,7 @@ import Eductation from '../components/Eductation';
 import Presentation from '../components/Presentation';
 import WorkHistory from '../components/WorkHistory';
 
-function Home() {
+function HomePage() {
   return (
     <>
       <Presentation />
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;

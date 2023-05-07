@@ -11,22 +11,28 @@ import {
   useColorMode,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
+import { Link as RouterLink } from 'react-router-dom';
 
-const Links = ['About me', 'Projects', 'Contact'];
+const Links = [
+  { href: '/', tag: 'About' },
+  { href: '/projects', tag: 'Projects' },
+  { href: '/contact', tag: 'Contact' },
+];
 
-const NavLink = ({ children }) => (
+const NavLink = ({ href, tag }) => (
   <Link
+    as={RouterLink}
     px={2}
     py={1}
     rounded={'full'}
+    to={href}
     _hover={{
       textDecoration: 'none',
       bg: useColorModeValue('purple.400', 'purple.900'),
       textColor: useColorModeValue('white', undefined),
     }}
-    href={'#'}
   >
-    {children}
+    {tag}
   </Link>
 );
 
@@ -53,7 +59,7 @@ export default function NavBar() {
           >
             <HStack as={'nav'} spacing={4}>
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLink key={link.tag} href={link.href} tag={link.tag} />
               ))}
             </HStack>
           </HStack>
@@ -82,7 +88,7 @@ export default function NavBar() {
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLink key={link.tag} href={link.href} tag={link.tag} />
               ))}
             </Stack>
           </Box>
