@@ -23,8 +23,8 @@ const ARRAY_PROJECTS = [
     technologies: [
       { title: 'ReactJS', color: '#61DBFB', icon: FaReact },
       { title: 'Firebase', color: '#FFA611', icon: SiFirebase },
-      { title: 'Vite', color: 'purple.300', icon: SiVite },
       { title: 'ChacraUI', color: 'teal.300', icon: AiTwotoneThunderbolt },
+      { title: 'Vite', color: 'purple.300', icon: SiVite },
     ],
   },
   {
@@ -37,10 +37,23 @@ const ARRAY_PROJECTS = [
     githubLink: 'https://github.com/giannidaniel18/dgKinessio',
     technologies: [
       { title: 'NodeJs', color: '#38A169', icon: FaNodeJs },
-      { title: 'Express', icon: SiExpress, switchColorText: false },
       { title: 'HandleBars', color: '#DD6B20', icon: SiHandlebarsdotjs },
+      { title: 'Express', icon: SiExpress, switchColorText: false },
       { title: 'Mysql', color: '#0987A0', icon: GrMysql },
       { title: 'PassportJS', color: '#38A169', icon: SiPassport },
+    ],
+  },
+  {
+    idPrject: 'personalPortfolio',
+    projectName: 'Portfolio',
+    miniature: '/assets/projects/portfolio.png',
+    projectDescription: 'Proyecto de porftolio personal',
+    websiteLink: '',
+    githubLink: 'https://github.com/giannidaniel18/dgianniPortfolio',
+    technologies: [
+      { title: 'ReactJS', color: '#61DBFB', icon: FaReact },
+      { title: 'ChacraUI', color: 'teal.300', icon: AiTwotoneThunderbolt },
+      { title: 'Vite', color: 'purple.300', icon: SiVite },
     ],
   },
 ];
